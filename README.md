@@ -19,6 +19,7 @@
     <li><a href="#data">Data</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#disclaimer">Disclaimer</a></li>
   </ol>
 </details>
 
@@ -57,15 +58,15 @@ You can also check out the [YouTube shorts video](https://www.youtube.com/shorts
 
 This file calculates bullish candlestick patterns. Here are the candlestick patterns:
 
-    - "engulfing",
+    - engulfing
 
-    - "harami"
+    - harami
 
-    - "dragonfly doji"
+    - dragonfly doji
 
-    - "inverted hammer"
+    - inverted hammer
 
-    - "morningstar"
+    - morningstar
 
 Here is a [YouTube shorts video](https://www.youtube.com/shorts/bV_Oq2U-itA) to the results of the script.      
 
@@ -81,3 +82,8 @@ MIT
 ## Contact
 
 You can reach me at  - info@zetra.io
+
+## Disclaimer 
+
+We want to emphasize that this is purely for educational purposes only. We do not offer any financial advice, recommendations, or make any guarantees of profit or success. 
+Trading carries a risk of loss, and it is important to always consult with a qualified professional before making any trading decisions.
