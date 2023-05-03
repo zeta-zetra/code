@@ -5,24 +5,24 @@
    for cryptocurrencies or other tradable asset classes.  
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#20-pips-challenge">20 pips challenge</a>
-    </li>
-    <li>
-      <a href="#automate-chart-patterns">Automate Chart Patterns</a>
-    </li>
-    <li><a href="#short-content">Short Content</a></li>
-    <li><a href="#data">Data</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#disclaimer">Disclaimer</a></li>
-  </ol>
-</details>
+Table of Contents
+=================
 
+ * [20 pips challenge](#20-pips-challenge) 
+ * [Automate Chart Patterns](#automate-chart-patterns)
+     * [Head and Shoulders Patterns](#head-shoulders)
+     * [Inverse Head and Shoulders Patterns](#inverse-head-shoulders)
+     * [Triple top and bottom Patterns](#triples-patterns)
+     * [Rectangle Patterns](#rectangle)
+     * [Wedge Patterns](#wedge)
+     * [Flag Patterns](#flag)
+ * [Short Content](#short-content)
+     * [42Dollars](#42-dollars)
+     * [Bullish Candlesticks](#bullish-candlesticks)
+ * [Data](#data)
+ * [License](#license)
+ * [Contact](#contact)
+ * [Disclaimer](#disclaimer)
 
 
 
@@ -32,7 +32,7 @@ Some text.
 ## Automate Chart Patterns
 
 > In his book, Encyclopedia of Chart Patterns , Thomas Bulkowski says, "To knowledgeable investors, chart patterns are not squiggles on a
-  price chart; they are the footprints of the smart money." Let's follow the samrt money...
+  price chart; they are the footprints of the smart money." Let's follow the smart money...
 
 As the folder name states, it contains scripts that automate the detection of chart patterns. Several algorithms can be used to identify chart patterns. We have marked the ones we have used so far:
 
