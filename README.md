@@ -63,29 +63,37 @@ You can check out the sample outputs below.
   </a>
 
 
-### 2. Inverse Head and Shoulders
+### 2. Inverse Head and Shoulders Patterns
 
   <a href="https://github.com/zeta-zetra/code">
     <img src="images/inverse-head-and-shoulders.png" alt="inverse-head-and-shoulders">
   </a>
 
-### 3. Triple top and bottom 
+### 3. Triple top and bottom Patterns
 
   <a href="https://github.com/zeta-zetra/code">
     <img src="images/triple-top-and-bottom.png" alt="triple-top-and-bottom">
   </a>
 
-### 4. Rectangle
+### 4. Rectangle Patterns
 
   <a href="https://github.com/zeta-zetra/code">
     <img src="images/rectangle.png" alt="rectangle">
   </a>
 
-### 5. Wedge
+### 5. Wedge Patterns
 
   <a href="https://github.com/zeta-zetra/code">
     <img src="images/wedge.png" alt="wedge">
   </a>
+
+
+### 6. Flag Patterns
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/flag.png" alt="flag">
+  </a>
+
 
 ## Short Content
 
