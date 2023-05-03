@@ -31,6 +31,62 @@ Some text.
 
 ## Automate Chart Patterns
 
+> In his book, Encyclopedia of Chart Patterns , Thomas Bulkowski says, "To knowledgeable investors, chart patterns are not squiggles on a
+  price chart; they are the footprints of the smart money." Let's follow the samrt money...
+
+As the folder name states, it contains scripts that automate the detection of chart patterns. Several algorithms can be used to identify chart patterns. We have marked the ones we have used so far:
+
+ - [x] Pivot Points
+
+ - [x] Argrelextrema
+
+ - Kernel Regression
+
+ - Perceptually important points 
+
+ - Directional Change
+
+ - Rolling window 
+
+ - Clustering Algorithms
+
+
+The idea is to implement all of the above algorithms and produce a Python library called `chart_patterns`. You can check out the YouTube videos discussing the patterns already automated
+[here](https://www.youtube.com/@zetratrading/videos).
+
+You can check out the sample outputs below.
+
+### 1. Head and Shoulders Patterns
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/head-and-shoulders.png" alt="head-and-shoulders">
+  </a>
+
+
+### 2. Inverse Head and Shoulders
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/inverse-head-and-shoulders.png" alt="inverse-head-and-shoulders">
+  </a>
+
+### 3. Triple top and bottom 
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/triple-top-and-bottom.png" alt="triple-top-and-bottom">
+  </a>
+
+### 4. Rectangle
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/rectangle.png" alt="rectangle">
+  </a>
+
+### 5. Wedge
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/wedge.png" alt="wedge">
+  </a>
+
 ## Short Content
 
 This folder has code that does not fit in other folders.
