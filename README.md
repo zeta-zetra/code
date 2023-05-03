@@ -5,14 +5,38 @@
    for cryptocurrencies. 
 
 
-# Table of Contents
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#20-pips-challenge">20 pips challenge</a>
+    </li>
+    <li>
+      <a href="#automate-chart-patterns">Automate Chart Patterns</a>
+    </li>
+    <li><a href="#short-form-videos">Short-form-videos</a></li>
+    <li><a href="#data">Data</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-1. [20 pips challenge](#20-pips-challenge)
-2. [Automate Chart Patterns](#automate-chart-patterns)
-3. [MACD](#macd)
-4. [Short-form-videos](#short-form-videos)
+
 
 
 ## 20 pips challenge
 Some text.
+
 ## Automate Chart Patterns
+
+## Short Form Videos
+
+## Data
+
+## License
+MIT
+
+## Contact
+
+You can reach me at  - info@zetra.io
