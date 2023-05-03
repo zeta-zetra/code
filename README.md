@@ -9,6 +9,8 @@ Table of Contents
 =================
 
  * [20 pips challenge](#20-pips-challenge) 
+    * [EMA, RSI and Fractals](#ema-rsi-fractals)
+    * [EMA Scalping](#ema-scalping)
  * [Automate Chart Patterns](#automate-chart-patterns)
      * [Head and Shoulders Patterns](#head-and-shoulders-patterns)
      * [Inverse Head and Shoulders Patterns](#inverse-head-and-shoulders-patterns)
@@ -27,7 +29,27 @@ Table of Contents
 
 
 ## 20 pips challenge
-Some text.
+
+You probably don't have $50 000, or $25 000 or $10 000 to start trading forex. Maybe we can start with $20 and grow it to over $50,000. The 20 pips challenge shows how you can grow your small account with at least 30 trades. See the image below.
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/20-pips.png" alt="20-pips-challenge">
+  </a>
+
+
+This folder contains scripts that you can test to grow your $20 to over $50,000. You can check out the YouTube video [here](https://www.youtube.com/watch?v=eaDgOT7FEOA).
+
+### 1. EMA, RSI and Fractals
+
+This is a scalping strategy from the ["Moving Average" channel](https://www.youtube.com/@TheMovingAverage).
+
+The strategy uses the Williams Fractals, the RSI and 3 moving averages, namely: the 21 MA, the 50 MA, and the 200 MA. The strategy is tested in the 15 min timeframe.
+
+
+### 2. EMA Scalping 
+
+Here is another scalping strategy but from a different YouTube channel called [CodeTrading](https://www.youtube.com/watch?v=ybmep_u5MeU). The strategy only uses three moving averages.
+The 50 EMA, the 100 EMA and the 150 EMA. It was tested in the 15-minute time frame. 
 
 ## Automate Chart Patterns
 
