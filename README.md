@@ -20,6 +20,7 @@ Table of Contents
      * [Rectangle Patterns](#rectangle-patterns)
      * [Wedge Patterns](#wedge-patterns)
      * [Flag Patterns](#flag-patterns)
+ * [MACD](#macd)
  * [Short Content](#short-content)
      * [42Dollars](#42dollars)
      * [Bullish Candlesticks](#bullish-candlesticks)
@@ -119,6 +120,17 @@ You can check out the sample outputs below.
   </a>
 
 
+## MACD
+The script looks at the MACD strategy and tests it on 31 currency pairs. There are plenty of videos on YouTube on the MACD strategy. But there have the following in common:
+
+ 1. The focus is on a single currency pair.
+ 
+ 2. The backtest is applied in one timeframe.
+
+ 3. The backtest ends on 100 trades. 
+
+
+We wanted to improve on this by doing the backtest on multiple currency pairs. On three time frames. And focus on more than 100 trades. You can watch the video [here](https://www.youtube.com/watch?v=RwEEOriVVx8&t=49s).
 ## Short Content
 
 This folder has code that does not fit in other folders.
