@@ -27,6 +27,7 @@ Table of Contents
  * [Data](#data)
  * [License](#license)
  * [Contact](#contact)
+ * [Buy me coffee](#coffee)
  * [Disclaimer](#disclaimer)
 
 
@@ -182,6 +183,10 @@ MIT
 ## Contact
 
 You can reach me at  - info@zetra.io
+
+## Buy me coffee
+
+If you feel like buying me coffee, here is the [link](https://www.buymeacoffee.com/info90). Thank you. 
 
 ## Disclaimer 
 
