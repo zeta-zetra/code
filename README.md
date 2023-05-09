@@ -34,7 +34,7 @@ Table of Contents
 
 ## Testing Forex Strategies
 
-> Please note this section was written by ChatGPT, May 3 version. 
+> Please note this section was rewritten with ChatGPT, May 3 version. 
 
 Hey there! I'm always on the lookout for fresh and exciting ideas to try out. That's why I spend a good chunk of my time diving into books, blogs, papers, and even watching YouTube videos for some strategy inspiration. It's amazing how much you can learn from these sources!
 
