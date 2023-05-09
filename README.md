@@ -10,6 +10,7 @@
 Table of Contents
 =================
 
+ * [Testing Forex Strategies](#testing-forex-strategies) 
  * [20 pips challenge](#20-pips-challenge) 
     * [EMA, RSI and Fractals](#ema-rsi-fractals)
     * [EMA Scalping](#ema-scalping)
@@ -31,6 +32,25 @@ Table of Contents
  * [Disclaimer](#disclaimer)
 
 
+## Testing Forex Strategies
+
+> Please note this section was written by ChatGPT, May 3 version. 
+
+Hey there! I'm always on the lookout for fresh and exciting ideas to try out. That's why I spend a good chunk of my time diving into books, blogs, papers, and even watching YouTube videos for some strategy inspiration. It's amazing how much you can learn from these sources!
+
+Speaking of strategies, I've collected a bunch of Python code in this folder. These are strategies that I stumbled upon during my research and thought they were worth putting to the test. I've even categorized them for easier navigation:
+
+  - First, we have strategies I discovered on YouTube. You know, those hidden gems shared by 'experts' in the field.
+    
+  - Then we have strategies from books, because there's nothing like some good old-fashioned wisdom between the pages. 
+  
+  - Of course, I couldn't miss out on strategies that were requested by fellow enthusiasts. It's always interesting to explore new ideas brought to the table.
+  
+  -  Next up, we've got strategies from blogs, where some fantastic minds share their insights and experiences.
+   
+  - Last but not least, we have chart pattern strategies, because patterns in the charts can hold valuable clues for successful trading.
+
+If you're curious and want to take a peek at the details, I've got you covered. Just head over to the project's documentation [here](https://zeta-zetra.github.io/docs-forex-strategies-python/). Feel free to explore and let me know if you have any questions or suggestions!
 
 ## 20 pips challenge
 
