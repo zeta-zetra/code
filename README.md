@@ -1,10 +1,9 @@
-![image](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![image](https://img.shields.io/pypi/pyversions/tqdm.svg?logo=python&logoColor=white) ![image](https://img.shields.io/pypi/l/tqdm.svg)
 
 
 # Python Trading Code
 
-> This repo houses python code about topics related to testing, trading and researching forex strategies. The code can be adapted
-   for cryptocurrencies or other tradable asset classes.  
+> This repo houses python code about topics related to testing, trading and researching forex strategies. The code can be adapted for cryptocurrencies or other tradable asset classes.  
 
 
 Table of Contents
