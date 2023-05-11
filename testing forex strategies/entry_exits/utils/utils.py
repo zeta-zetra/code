@@ -234,3 +234,151 @@ def save_backtest_stats(df: pd.DataFrame, filename: str = "") -> None:
         fig.write_image(file_path)
     except Exception as e:
         pass
+
+
+def plot_ohlc_pivots(ohlc: pd.DataFrame, filename: str = ""):
+    """
+    Plot the OHLC data and the Pivot points
+
+    :params ohlc dataframe
+    :type :pd.DataFrame
+
+    :params filename for the saved image
+    :type :str
+
+    """
+
+    ohlc_plot = ohlc.iloc[1000:1250,:]
+    ohlc_plot.reset_index(drop=True, inplace=True)
+
+    fig = go.Figure(data=[
+          go.Candlestick(x=ohlc_plot.index,
+          open = ohlc_plot["Open"],
+          high = ohlc_plot["High"],
+          low  = ohlc_plot["Low"],
+          close= ohlc_plot["Close"],
+          name = "OHLC")  
+    ])
+
+    fig.update_layout(xaxis_rangeslider_visible=False, plot_bgcolor='black', paper_bgcolor="black",
+                     xaxis=dict(showgrid=False, color="white"), yaxis=dict(showgrid=False, side="right", color="white"), legend_font_color="white",
+                     legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01))
+
+
+    fig.add_trace(go.Scatter(
+        x=ohlc_plot.index,
+        y=ohlc_plot.PP,
+        marker=dict(color="orange", size=4),
+        mode="markers",
+        name ="PP"
+    ))
+
+    fig.add_trace(go.Scatter(
+        x=ohlc_plot.index,
+        y=ohlc_plot.S1,
+        marker=dict(color="red", size=4),
+        mode="markers",
+        name ="S1"
+    ))    
+
+    fig.add_trace(go.Scatter(
+        x=ohlc_plot.index,
+        y=ohlc_plot.S2,
+        marker=dict(color="red", size=4),
+        mode="markers",
+        name ="S2"
+    )) 
+
+
+    fig.add_trace(go.Scatter(
+        x=ohlc_plot.index,
+        y=ohlc_plot.R1,
+        marker=dict(color="green", size=4),
+        mode="markers",
+        name ="R1"
+    )) 
+
+    fig.add_trace(go.Scatter(
+        x=ohlc_plot.index,
+        y=ohlc_plot.R2,
+        marker=dict(color="green", size=4),
+        mode="markers",
+        name ="R2"
+    ))     
+
+    # fig.show()
+
+    # Also save it in the docs folder (if its there)
+    try:
+        dir_book     = os.path.realpath('').split("code")[0]
+        file_path    = os.path.join(dir_book,"book", "100-strategies", "_static","images", f"{filename}.png")
+        fig.write_image(file_path)
+    except Exception as e:
+        pass
+
+
+def plot_ohlc_pivots_dm(ohlc: pd.DataFrame, filename: str = ""):
+    """
+    Plot the OHLC data and the Pivot points
+
+    :params ohlc dataframe
+    :type :pd.DataFrame
+
+    :params filename for the saved image
+    :type :str
+
+    """
+
+    ohlc_plot = ohlc.iloc[1000:1250,:]
+    ohlc_plot.reset_index(drop=True, inplace=True)
+
+    fig = go.Figure(data=[
+          go.Candlestick(x=ohlc_plot.index,
+          open = ohlc_plot["Open"],
+          high = ohlc_plot["High"],
+          low  = ohlc_plot["Low"],
+          close= ohlc_plot["Close"],
+          name = "OHLC")  
+    ])
+
+    fig.update_layout(xaxis_rangeslider_visible=False, plot_bgcolor='black', paper_bgcolor="black",
+                     xaxis=dict(showgrid=False, color="white"), yaxis=dict(showgrid=False, side="right", color="white"), legend_font_color="white",
+                     legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01))
+
+
+    fig.add_trace(go.Scatter(
+        x=ohlc_plot.index,
+        y=ohlc_plot.PP,
+        marker=dict(color="orange", size=4),
+        mode="markers",
+        name ="PP"
+    ))
+
+    fig.add_trace(go.Scatter(
+        x=ohlc_plot.index,
+        y=ohlc_plot.S1,
+        marker=dict(color="red", size=4),
+        mode="markers",
+        name ="S1"
+    ))    
+
+
+
+    fig.add_trace(go.Scatter(
+        x=ohlc_plot.index,
+        y=ohlc_plot.R1,
+        marker=dict(color="green", size=4),
+        mode="markers",
+        name ="R1"
+    )) 
+
+
+    # fig.show()
+
+    # Also save it in the docs folder (if its there)
+    try:
+        dir_book     = os.path.realpath('').split("code")[0]
+        file_path    = os.path.join(dir_book,"book", "100-strategies", "_static","images", f"{filename}.png")
+        fig.write_image(file_path)
+    except Exception as e:
+        pass

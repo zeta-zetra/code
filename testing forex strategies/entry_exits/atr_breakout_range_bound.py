@@ -4,8 +4,8 @@ Author         : Zetra Team
 YouTube Channel: https://www.youtube.com/@zetratrading/featured
 Github Link    : https://github.com/zeta-zetra/code
 
-This is a strategy from the following book: https://www.amazon.com/Entry-Exit-Confessions-Champion-Trader/dp/1095328557
-
+This is a strategy from ChatGPT. See the following for the rules:
+https://zeta-zetra.github.io/docs-forex-strategies-python/
 
 Disclaimer: We want to emphasize that this is purely for educational purposes only. We do not offer any financial advice, recommendations, or make any guarantees of profit or success. 
 Trading carries a risk of loss, and it is important to always consult with a qualified professional before making any trading decisions.
