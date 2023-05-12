@@ -51,6 +51,23 @@ Speaking of strategies, I've collected a bunch of Python code in this folder. Th
 
 If you're curious and want to take a peek at the details, I've got you covered. Just head over to the project's documentation [here](https://zeta-zetra.github.io/docs-forex-strategies-python/). Feel free to explore and let me know if you have any questions or suggestions!
 
+Below we show the current top 10 results. Please note the following: 
+
+   -  Starting balance: $10,000
+   -  Margin: 1:100
+   -  Commission: None
+   -  Testing period: From January 1, 2020, to December 31, 2022
+   -  Timeframe: 15 minutes
+   -  Currency pair: EURUSD
+   -  Data Source: Dukascopy 
+
+Also note the limitations outlined in the [documentation](https://zeta-zetra.github.io/docs-forex-strategies-python/).
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/top-10.png" alt="top-10-results">
+  </a>
+
+
 ## 20 pips challenge
 
 You probably don't have $50 000, or $25 000 or $10 000 to start trading forex. Maybe we can start with $20 and grow it to over $50,000. The 20 pips challenge shows how you can grow your small account with at least 30 trades. See the image below.
