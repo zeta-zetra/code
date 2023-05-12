@@ -3,6 +3,7 @@ testing forex strategies/entry_exits/entry/__pycache__/
 testing forex strategies/entry_exits/exits/__pycache__/
 testing forex strategies/entry_exits/utils/__pycache__/
 testing forex strategies/results/
+testing forex strategies/get_results.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

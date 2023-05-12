@@ -20,7 +20,7 @@ def read_data():
     Read in the data 
     """
     # Read in the data 
-    logging.info("Reading in the data")
+    
     dir_     = os.path.realpath('').split("testing forex strategies")[0]
     csv_file = os.path.join(dir_,"data","EURUSD_15_M_BID_01.01.2020-31.12.2022.csv")
 
@@ -158,7 +158,7 @@ def run_backtest(ohlc_subset: pd.DataFrame, strategy: Strategy, strategy_name: s
         NewStrat = get_trading_strategy([strategy, exit])
         
         # Run the backtest
-        bt = Backtest(ohlc_subset, NewStrat, cash=10_000, commission=.00)
+        bt = Backtest(ohlc_subset, NewStrat, cash=10_000, commission=.00, margin=1/100)
         stats = bt.run()
 
         # Get the stats results

@@ -1,5 +1,5 @@
 """
-Date           : 2023-05-07
+Date           : 2023-05-12
 Author         : Zetra Team
 YouTube Channel: https://www.youtube.com/@zetratrading/featured
 Github Link    : https://github.com/zeta-zetra/code
@@ -36,40 +36,52 @@ def main(show_plot=True):
     This is the main function to run the analysis
     """
 
-    strategy_name = "quick-pullback"
+    strategy_name = "chande-entry-two-amigos"
+    
     # Read in the data
     ohlc  = read_data()
 
-    # Lag High and Low
-    ohlc["High_1"] = ohlc["High"].shift(1)
-    ohlc["High_2"] = ohlc["High"].shift(2)
- 
-    ohlc["Low_1"] = ohlc["Low"].shift(1)
-    ohlc["Low_2"] = ohlc["Low"].shift(2)
 
-    # Buy and sell conditions
-    buy_conditions  = (ohlc["High_2"] > ohlc["High_1"]) & (ohlc["Low_2"] < ohlc["Low_1"]) & (ohlc["Close"] > ohlc["High_2"])
-    sell_conditions = (ohlc["Low_2"] < ohlc["Low_1"]) & (ohlc["High_2"] > ohlc["High_1"]) & (ohlc["Close"] < ohlc["Low_2"])
+     # Calculate the simple moving averages
+    ohlc["sma_5"]  = ohlc["Close"].rolling(5).mean()
+    ohlc["sma_10"] = ohlc["Close"].rolling(10).mean()
 
-    ohlc.loc[:,"buy_position"] = np.where(buy_conditions, ohlc["High"],np.nan)
+    # Lag the SMAs
+    ohlc["l_sma_5"]  = ohlc["sma_5"].shift(1)
+    ohlc["l_sma_10"] = ohlc["sma_10"].shift(1)
+
+    # Calculate the adx 
+    adx_  = ohlc.ta.adx(high = ohlc["High"], low = ohlc["Low"], close = ohlc["Close"],
+                                length=14)
+
+    ohlc.loc[:,"ADX"] = adx_.loc[:,"ADX_14"]   
+
+    # Lag Close price
+    ohlc["close_20"] = ohlc["Close"].shift(20)
+
+
+    # Buy and Sell conditions
+    buy_conditions   = (ohlc["Close"] < ohlc["sma_5"]) & (ohlc["l_sma_5"] > ohlc["l_sma_10"]) & (ohlc["sma_5"] < ohlc["sma_10"]) & (ohlc["ADX"] > 20) & (ohlc["Close"] > ohlc["close_20"])
+    sell_conditions  = (ohlc["Close"] > ohlc["sma_5"]) & (ohlc["l_sma_5"] < ohlc["l_sma_10"]) & (ohlc["sma_5"] > ohlc["sma_10"]) & (ohlc["ADX"] > 20) & (ohlc["Close"] < ohlc["close_20"])
+
+    ohlc.loc[:,"buy_position"]  = np.where(buy_conditions, ohlc["High"],np.nan)
     ohlc.loc[:,"sell_position"] = np.where(sell_conditions, ohlc["Low"],np.nan)
 
-    
+
     # Signal Points 
     ohlc.loc[:,"buy"] = np.where(buy_conditions,1,0)
     ohlc.loc[:,"sell"] = np.where(sell_conditions,1,0) 
 
-
     # Plot 
     if show_plot:
-        plot_ohlc(ohlc, filename=strategy_name)  
-    
+        plot_ohlc(ohlc, filename=strategy_name)       
+   
+
     # ===============
     # Run backtest 
     #================
 
     run_backtest(ohlc, SimpleStrategy, strategy_name=strategy_name)
-
 
 if __name__ == "__main__":
     main()
