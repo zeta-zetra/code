@@ -10,6 +10,9 @@ Table of Contents
 =================
 
  * [Testing Forex Strategies](#testing-forex-strategies) 
+ * [Support and Resistance](#support-and-resistance)
+    * [Methods](#methods)
+    * [References](#references)
  * [20 pips challenge](#20-pips-challenge) 
     * [EMA, RSI and Fractals](#ema-rsi-fractals)
     * [EMA Scalping](#ema-scalping)
@@ -67,6 +70,65 @@ Also note the limitations outlined in the [documentation](https://zeta-zetra.git
     <img src="images/top-10.png" alt="top-10-results">
   </a>
 
+
+## Support and Resistance
+
+Are you interested in effortlessly uncovering support and resistance levels? We've got you covered! We've gathered a bunch of awesome techniques we discovered online to automate the detection of these crucial levels. Right now, we've got nine fantastic methods to share with you, but don't worry, we're always on the lookout for more and will keep expanding our collection.
+
+Take a peek inside this folder, and you'll find all the code for these incredible methods. It's like having your very own treasure trove of support and resistance detection tools!
+
+### Methods
+
+Here is a list of the methods:
+
+ - [x] Traditional 
+
+ - [x] Fibonacci 
+
+ - [x] DM
+
+ - [x] Caramilla
+
+ - [x] Kmeans Clustering
+
+ - [x] Agglomerative Clustering
+
+ - [x] Density 1
+
+ - [x] Density 2
+
+ - [x] Fractals 
+
+
+Our aim is to create a python package called `supportresist` that will make it easy to compare and detect support and resistance levels. Here is a link to the [YouTube video]() going through the methods and their results.
+
+### References
+
+This is the complete list of references that was were consulted. 
+
+#### Blog Posts
+
+ -  [Support Resistance Algorithm - Technical analysis](https://stackoverflow.com/questions/8587047support-resistance-algorithm-technical-analysis)
+
+ -  [Detection of price support and resistance levels in Python](https://towardsdatascience.com/detection-of-price-support-and-resistance-levels-in-python-baedc44c34c9)
+
+ - [How to Detect Support & Resistance Levels and Breakout using Python](https://medium.datadriveninvestor.com/how-to-detect-support-resistance-levels-and-breakout-using-python-f8b5dac42f21)
+
+#### GitHub Repos
+
+ - [Stock Support and Resistance Analysis](https://github.com/JOravetz/stock_support_resistance_analysis/tree/main)
+
+ - [PriceLevels](https://github.com/day0market/support_resistance/tree/master)
+
+#### Videos
+
+- [Pivot Points Indicator in Python](https://www.youtube.com/watch?v=5RL_diLBJlI)
+
+- [Auto-detect Support and Resistance in Python](https://www.youtube.com/watch?v=5OjX8r3DsmU)
+
+- [SUPPORT & RESISTANCES with Python](https://www.youtube.com/watch?v=qZElw2uN1NI)
+
+- [Market Profile and Support/Resistance Levels With Python](https://www.youtube.com/watch?v=mNWPSFOVoYA&t=262s)
 
 ## 20 pips challenge
 
