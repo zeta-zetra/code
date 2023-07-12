@@ -100,7 +100,7 @@ Here is a list of the methods:
  - [x] Fractals 
 
 
-Our aim is to create a python package called `supportresist` that will make it easy to compare and detect support and resistance levels. Here is a link to the [YouTube video]() going through the methods and their results.
+Our aim is to create a python package called `supportresist` that will make it easy to compare and detect support and resistance levels. Here is a link to the [YouTube video](https://youtu.be/rzgJLdVh7vY) going through the methods and their results.
 
 ### References
 
