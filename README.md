@@ -272,8 +272,11 @@ Here is a [YouTube shorts video](https://www.youtube.com/shorts/bV_Oq2U-itA) to 
 ## Data
 
 The data folder contains any files you will need to replicate the results found from testing, etc. This will usually be forex data
-you can download from [Dukascopy](https://www.dukascopy.com/swiss/english/marketwatch/historical/). Please note there is no affiliation with
-Dukascopy. 
+you can download from [Dukascopy](https://www.dukascopy.com/swiss/english/marketwatch/historical/). 
+
+You can use our python library [forexpy](https://github.com/zeta-zetra/forexpy) to collect forex data from different sources.
+
+Please note there is no affiliation with Dukascopy. 
 
 ## License
 MIT
