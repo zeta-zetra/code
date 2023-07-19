@@ -1,5 +1,5 @@
 
-from backtesting import Strategy
+from backtesting import Strategy, Backtest
 
 class SimpleStrategy(Strategy):
     initsize   = 0.3

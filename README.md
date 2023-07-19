@@ -27,6 +27,7 @@ Table of Contents
  * [Short Content](#short-content)
      * [42Dollars](#42dollars)
      * [Bullish Candlesticks](#bullish-candlesticks)
+ * [Retracement](#retracement) 
  * [Data](#data)
  * [License](#license)
  * [Contact](#contact)
@@ -268,6 +269,54 @@ This file calculates bullish candlestick patterns. Here are the candlestick patt
     - morningstar
 
 Here is a [YouTube shorts video](https://www.youtube.com/shorts/bV_Oq2U-itA) to the results of the script.      
+
+## Retracement
+
+
+Will the price bounce back? As traders we look for the levels prices will bounce back and continue its trend. These points of retracements can
+serve as good entry points to catch the trend. 
+
+We will use python to calculate different retracement levels. Currently the following have been implemented:
+
+- [x] Distance
+
+- [x] Fibonacci 
+
+More methods will be added. 
+
+### Results
+
+Here is a plot of one result when `condition` is set to `fibonacci`:
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/fibonacci-example.png" width="50%" alt="fibonacci-levels-retracement">
+  </a>
+
+Here is a result when `condition` is set to `distance`:
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/distance-example.png" alt="distance-levels-retracement">
+  </a>
+
+
+The results are not perfect. But we will continue to work on it.
+
+### References
+
+#### Blogs
+
+1. [https://towardsdatascience.com/fibonacci-retracements-in-python-470eb33b6362](https://towardsdatascience.com/fibonacci-retracements-in-python-470eb33b6362)
+
+
+#### Github Repos
+
+1. [https://github.com/gianlucamalato/machinelearning](https://github.com/gianlucamalato/machinelearning/blob/master/Fibonacci_Retracements.ipynb)
+
+#### Videos
+
+1. [Step-by-Step Guide to Building a Fibonacci Retracement Forex Trading Indicator in Python](https://www.youtube.com/watch?v=3rmw0UFgYmQ) 
+
+
 
 ## Data
 
