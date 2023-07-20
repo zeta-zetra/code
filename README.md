@@ -28,6 +28,9 @@ Table of Contents
      * [42Dollars](#42dollars)
      * [Bullish Candlesticks](#bullish-candlesticks)
  * [Retracement](#retracement) 
+     * [Results](#results)
+     * [Example of Trends and Retracements signal](#example-of-trends-and-retracements-signal)
+     * [Retracement References](#retracement-references)
  * [Data](#data)
  * [License](#license)
  * [Contact](#contact)
@@ -272,7 +275,6 @@ Here is a [YouTube shorts video](https://www.youtube.com/shorts/bV_Oq2U-itA) to 
 
 ## Retracement
 
-
 Will the price bounce back? As traders we look for the levels prices will bounce back and continue its trend. These points of retracements can
 serve as good entry points to catch the trend. 
 
@@ -282,7 +284,22 @@ We will use python to calculate different retracement levels. Currently the foll
 
 - [x] Fibonacci 
 
-More methods will be added. 
+- [x] DM
+
+- [x] Caramilla
+
+- [x] Moving Average
+
+
+Here are the methods for calculating the pivot points:
+
+ - [x] High and Low (hilo)
+
+ - [x] argrelextrema (arg)
+
+ - [x] Fractals (frc)
+
+ - [x] Perceptual Important Points (pips)
 
 ### Results
 
@@ -301,7 +318,28 @@ Here is a result when `condition` is set to `distance`:
 
 The results are not perfect. But we will continue to work on it.
 
-### References
+### Example of Trends and Retracements signal
+
+The points found could potentially be reversals. To be "true" retracement points, the price has to be trending. There are many different ways to
+measure or detect if price is trending. As an example we defined an `upward trend` as being when the close is greater than the 10-period moving average. 
+A `downward trend` as being when the close is less than the 10-period moving average. 
+
+Here is an example of a `buy signal`:
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/signal-buy.png" alt="signal-buy-retracement">
+  </a>
+
+
+Here is an example of a `sell signal`:
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/signal-sell.png" alt="signal-sell-retracement">
+  </a>
+
+
+
+### Retracement References
 
 #### Blogs
 
@@ -311,6 +349,8 @@ The results are not perfect. But we will continue to work on it.
 #### Github Repos
 
 1. [https://github.com/gianlucamalato/machinelearning](https://github.com/gianlucamalato/machinelearning/blob/master/Fibonacci_Retracements.ipynb)
+
+2. [neurotrader888/TechnicalAnalysisAutomation](https://github.com/neurotrader888/TechnicalAnalysisAutomation/tree/main)
 
 #### Videos
 

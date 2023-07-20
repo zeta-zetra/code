@@ -66,7 +66,7 @@ def main(show_plot=True):
     # Calculate the pivot points on the daily 
     ohlc_daily["PP"] = (ohlc_daily["High"] + ohlc_daily["Low"] + ohlc_daily["Close"])/3
 
-    ohlc_daily["R1"] = ohlc_daily["PP"]*2 - ohlc_daily["Low"]
+    ohlc_daily["R1"] = ohlc_daily["PP"]*2 + ohlc_daily["Low"]
     ohlc_daily["S1"] = ohlc_daily["PP"]*2 - ohlc_daily["High"]
     
     ohlc_daily["R2"] = ohlc_daily["PP"] + (ohlc_daily["High"] - ohlc_daily["Low"])
