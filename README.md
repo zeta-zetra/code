@@ -338,6 +338,12 @@ Here is an example of a `sell signal`:
   </a>
 
 
+Here is a gif of `all the signals`:
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/signal-gif.gif" alt="signal-gif-retracement">
+  </a>
+
 
 ### Retracement References
 
