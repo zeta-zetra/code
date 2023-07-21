@@ -324,19 +324,6 @@ The points found could potentially be reversals. To be "true" retracement points
 measure or detect if price is trending. As an example we defined an `upward trend` as being when the close is greater than the 10-period moving average. 
 A `downward trend` as being when the close is less than the 10-period moving average. 
 
-Here is an example of a `buy signal`:
-
-  <a href="https://github.com/zeta-zetra/code">
-    <img src="images/signal-buy.png" alt="signal-buy-retracement">
-  </a>
-
-
-Here is an example of a `sell signal`:
-
-  <a href="https://github.com/zeta-zetra/code">
-    <img src="images/signal-sell.png" alt="signal-sell-retracement">
-  </a>
-
 
 Here is a gif of `all the signals`:
 
