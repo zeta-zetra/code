@@ -31,6 +31,7 @@ Table of Contents
      * [Results](#results)
      * [Example of Trends and Retracements signal](#example-of-trends-and-retracements-signal)
      * [Retracement References](#retracement-references)
+ * [Code Trading](#code-trading)
  * [Data](#data)
  * [License](#license)
  * [Contact](#contact)
@@ -349,6 +350,19 @@ Here is a gif of `all the signals`:
 
 1. [Step-by-Step Guide to Building a Fibonacci Retracement Forex Trading Indicator in Python](https://www.youtube.com/watch?v=3rmw0UFgYmQ) 
 
+
+
+## Code Trading
+
+[CodeTrading](https://www.youtube.com/@CodeTradingCafe) is a YouTube channel where the hosts tests different trading strategies. He also gives access to the code. We
+have decided to refactor the code and test them across different exits. Here is a gif for some of the results we found.
+
+  <a href="https://github.com/zeta-zetra/code">
+    <img src="images/code-trading-results.gif" alt="code-trading-results">
+  </a>
+
+
+You can find the playlist were we found the strategies [here](https://www.youtube.com/playlist?list=PLwEOixRFAUxZmM26EYI1uYtJG39HDW1zm). The channel is definitely worth checking out. **Highly recommended**
 
 
 ## Data
